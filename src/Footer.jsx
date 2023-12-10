@@ -4,10 +4,10 @@ function Footer() {
     return (
         <div>
 
-            <div class="footer">
-                <div class="contain">
+            <div className="footer">
+                <div className="contain">
                     <p style={{ color: "white" }}>Questions? Call 000-800-919-774</p>
-                    <div class="col">
+                    <div className="col">
 
                         <ul>
                             <li>FAQ</li>
@@ -18,7 +18,7 @@ function Footer() {
                         </ul>
                     </div>
 
-                    <div class="col">
+                    <div className="col">
                         <ul>
                             <li>Corporate Information</li>
                             <li>Help Centre </li>
@@ -27,7 +27,7 @@ function Footer() {
                             <li>Jobs</li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div className="col">
                         <ul>
                             <li>Terms of Use</li>
                             <li> Cookie Preferences</li>
@@ -38,9 +38,9 @@ function Footer() {
                         </ul>
                     </div>
                     
-                    <div class="col social">
+                    <div className="col social">
                     </div>
-                    <div class="clearfix"></div>
+                    <div className="clearfix"></div>
                 </div>
             </div></div>
     )
